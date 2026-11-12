@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moomoo - Home</title>
+
+    <link rel="stylesheet" href="../style/home.css">
+</head>
+
+<body>
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="left-sidebar">
+
+        <div class="sidebar-top">
+            <div class="sidebar-placeholder"></div>
+        </div>
+
+        <!-- Character Decoration -->
+        <div class="character-container">
+            <img
+                src="images/left-character.png"
+                alt=""
+                class="character-image"
+            >
+        </div>
+
+        <!-- Sidebar Bottom -->
+        <div class="sidebar-bottom">
+
+            <a href="#" class="contact-button">
+                Contact us
+            </a>
+
+            <p>+0817568422</p>
+
+            <a href="#" class="help-button">
+                Help Me
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <!-- RIGHT CONTENT -->
+    <main class="main-content">
+
+        <!-- NAVBAR -->
+        <header class="navbar">
+
+            <nav class="nav-links">
+                <a href="#">About</a>
+                <a href="#">Fandoms</a>
+                <a href="#">Login</a>
+            </nav>
+
+
+            <!-- HEADER SEARCH -->
+            <div class="search-wrapper header-search">
+
+                <input
+                    type="text"
+                    class="search-input"
+                    placeholder="Search..."
+                    id="header-search"
+                >
+
+                <button class="search-button" onclick="searchStory('header-search')">
+                    <span class="search-icon"></span>
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- HOME CONTENT -->
+        <section class="home-content">
+
+            <!-- MAIN LOGO -->
+            <div class="main-logo-container">
+
+                <img
+                    src="images/main-logo.png"
+                    alt="Moomoo Logo"
+                    class="main-logo"
+                >
+
+            </div>
+
+
+            <!-- MAIN SEARCH -->
+            <div class="search-wrapper main-search">
+
+                <input
+                    type="text"
+                    class="search-input"
+                    placeholder=""
+                    id="main-search"
+                >
+
+                <button class="search-button" onclick="searchStory('main-search')">
+                    <span class="search-icon"></span>
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Data cerita dan fungsi pencarian -->
+    <script src="../script/stories.js"></script>
+    <script src="../script/home.js"></script>
+
+</body>
+</html>

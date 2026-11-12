@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Story Reading</title>
+
+    <link rel="stylesheet" href="../style/reading.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <a href="test.html" class="home-button">
+            Home
+        </a>
+
+        <div class="header-logo">
+            MOOOOOOOOOOOOOOOOOOOOOO
+        </div>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="search-input"
+                aria-label="Search"
+            >
+            <span class="search-icon">⌕</span>
+        </div>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <div class="reading-page">
+
+
+        <!-- STORY AREA -->
+        <main class="reading-content">
+
+            <!-- STORY PREVIEW -->
+            <div class="story-preview">
+
+                <h1 id="story-title">
+                    STORY TITLE
+                </h1>
+
+                <p id="story-subtitle">
+                    STORY SUBTITLE
+                </p>
+
+                <!-- STORY METADATA -->
+                <div class="story-metadata">
+
+                    <div>
+                        <span>AUTHOR</span>
+                        <p id="story-author"></p>
+                    </div>
+
+                    <div>
+                        <span>DATE OF PUBLISHED</span>
+                        <p id="story-published"></p>
+                    </div>
+
+                    <div>
+                        <span>DATE OF LAST MODIFIED</span>
+                        <p id="story-modified"></p>
+                    </div>
+
+                    <div>
+                        <span>NUM OF COMMENTS</span>
+                        <p id="story-comments"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- STORY PARAGRAPHS -->
+            <article
+                class="story-body"
+                id="story-body"
+            ></article>
+
+
+            <!-- STORY NOTE -->
+            <section class="story-note">
+
+                <p id="story-note"></p>
+
+            </section>
+
+        </main>
+
+
+        <!-- RIGHT SIDEBAR -->
+        <aside class="chapter-sidebar">
+
+            <h2>CHAPTERS</h2>
+
+            <nav
+                class="chapter-list"
+                id="chapter-list"
+            ></nav>
+
+        </aside>
+
+
+    </div>
+
+    
+    <script src="../script/stories.js"></script>
+    <script src="../script/reading.js"></script>
+
+</body>
+</html>
