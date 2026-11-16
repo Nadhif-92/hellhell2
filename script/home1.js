@@ -70,7 +70,7 @@ function displaySearchResults(wrapper, results) {
 
         link.className = "search-result-item";
 
-        link.href = `reading.html?id=${story.id}`;
+        link.href = `./pages/reading.html?id=${story.id}`;
 
 
         // Story title
@@ -187,7 +187,7 @@ searchWrappers.forEach(wrapper => {
         if (results.length > 0) {
 
             window.location.href =
-                `reading.html?id=${results[0].id}`;
+                `./pages/reading.html?id=${results[0].id}`;
 
         } else if (input.value.trim() !== "") {
 
@@ -210,7 +210,7 @@ searchWrappers.forEach(wrapper => {
             if (results.length > 0) {
 
                 window.location.href =
-                    `reading.html?id=${results[0].id}`;
+                    `./pages/reading.html?id=${results[0].id}`;
 
             } else if (input.value.trim() !== "") {
 

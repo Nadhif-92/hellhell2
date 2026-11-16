@@ -9,7 +9,7 @@ function searchStory(inputId) {
     // Jika cerita ditemukan
     if (result) {
 
-        window.location.href = "reading.html?id=" + result.id;
+        window.location.href = "./pages/reading.html?id=" + result.id;
 
     } else {
 
